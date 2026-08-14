@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Volkswagen Dietrich · Reporte mensual · Julio 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,700;0,800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --rojo:#AF0217;
+  --rojo-brillante:#ED1C24;
+  --negro:#141414;
+  --hueso:#F8FAFD;
+  --gris:#313131;
+  --gris-suave:#EDEDEF;
+  --gris-linea:#DEDEE2;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Montserrat',sans-serif;font-weight:300;background:var(--gris-suave);color:var(--negro);font-size:16px;line-height:1.7;padding:2rem 1rem}
+.page{max-width:900px;margin:0 auto}
+
+/* HEADER */
+.cover{background:var(--negro);padding:2.6rem 2.5rem;margin-top:-2rem;margin-bottom:1.25rem;position:relative;left:50%;right:50%;width:100vw;margin-left:-50vw;margin-right:-50vw;overflow:hidden}
+.cover-inner{max-width:900px;margin:0 auto}
+@media(max-width:600px){.cover{padding:2.2rem 1.25rem}}
+.cover-top{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;flex-wrap:wrap;position:relative;margin-bottom:26px}
+.cover-logo{height:22px;filter:invert(1);display:block}
+.cover-meta{text-align:right;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#9A9AA0;line-height:1.9}
+.cover-meta b{color:#fff;font-weight:600}
+.kicker{font-weight:700;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--rojo-brillante);margin-bottom:10px;position:relative}
+.cover h1{font-weight:800;font-size:28px;color:var(--hueso);margin-bottom:6px;position:relative}
+.cover h1 em{font-family:Georgia,'Times New Roman',serif;font-style:italic;font-weight:700;color:#B7B7BD}
+.cover .subtitle{font-weight:300;font-size:13px;color:#C9C9CE;position:relative}
+
+/* CARDS */
+.card{background:#fff;border-radius:16px;border:.5px solid var(--gris-linea);padding:2rem 2.5rem;margin-bottom:1.25rem}
+.st{font-weight:700;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--rojo);margin:0 0 14px;border-bottom:2px solid var(--negro);padding-bottom:8px;display:flex;align-items:center;gap:8px}
+.st .n{background:var(--negro);color:#fff;font-weight:700;font-size:11px;width:20px;height:20px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0}
+.eyebrow{font-weight:600;font-size:12px;color:#767680;margin:-8px 0 14px}
+
+.g{display:grid;gap:10px}
+.g4{grid-template-columns:repeat(4,1fr)}
+.g3{grid-template-columns:repeat(3,1fr)}
+.g2{grid-template-columns:repeat(2,1fr)}
+.mc{background:var(--hueso);border-radius:8px;padding:12px 14px;border:.5px solid var(--gris-linea)}
+.ml{font-weight:600;font-size:10.5px;letter-spacing:.02em;text-transform:uppercase;color:#767680;margin:0 0 4px}
+.mv{font-weight:800;font-size:22px;color:var(--negro);margin:0}
+.ms{font-weight:300;font-size:11px;color:#767680;margin:4px 0 0}
+.up{color:#3D7A4E}.warn{color:#B4772A}.dn{color:var(--rojo)}
+
+/* CALLOUTS */
+.nb{background:var(--hueso);border-left:3px solid var(--negro);border-radius:0 8px 8px 0;padding:14px 18px;font-weight:300;font-size:13.5px;color:var(--negro);line-height:1.65;margin-bottom:12px}
+.nb strong{font-weight:600}
+.wb{background:#FBF1E4;border-left:3px solid #B4772A;border-radius:0 8px 8px 0;padding:14px 18px;font-weight:300;font-size:13.5px;color:var(--negro);line-height:1.65;margin-bottom:12px}
+.wb strong{font-weight:600}
+.pb{background:#EEF6F1;border-left:3px solid #3D7A4E;border-radius:0 8px 8px 0;padding:14px 18px;font-weight:300;font-size:13.5px;color:var(--negro);line-height:1.65;margin-bottom:12px}
+.pb strong{font-weight:600}
+.nb.headline,.wb.headline,.pb.headline{margin-bottom:16px}
+.headline-tag{font-weight:700;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--rojo);display:block;margin-bottom:5px}
+
+.bul{display:flex;gap:8px;margin-bottom:11px;font-weight:300;font-size:13.5px;color:var(--negro);line-height:1.55}
+.bul:last-child{margin-bottom:0}
+.bul .dot{width:5px;height:5px;border-radius:50%;background:var(--rojo);margin-top:8px;flex-shrink:0}
+.bul strong{font-weight:600}
+
+hr.div{border:none;border-top:.5px solid var(--gris-linea);margin:1.3rem 0}
+.sub-st{font-weight:700;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--gris);margin:24px 0 12px;padding-top:18px;border-top:.5px solid var(--gris-linea)}
+.sub-st:first-child{margin-top:0;padding-top:0;border-top:none}
+
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin-bottom:2px}
+table.t{width:100%;border-collapse:collapse;font-size:12.5px}
+table.t th{text-align:left;font-weight:700;font-size:10.5px;letter-spacing:.03em;text-transform:uppercase;color:#767680;padding:7px 8px 9px;border-bottom:2px solid var(--negro)}
+table.t td{padding:9px 8px;border-bottom:.5px solid var(--gris-linea);color:var(--negro);vertical-align:top;font-weight:300}
+table.t tr:last-child td{border-bottom:none}
+table.t strong{font-weight:600}
+table.t .num{text-align:right;font-variant-numeric:tabular-nums}
+
+.badge{display:inline-block;font-weight:600;font-size:10px;padding:3px 8px;border-radius:20px}
+.b-wine{background:#FBE9EA;color:var(--rojo)}
+.b-olive{background:#EFF1E4;color:#5C6B2A}
+.b-blue{background:#E6EEF7;color:#2A4C7A}
+.b-amber{background:#FBEEDC;color:#8A5A17}
+.b-gray{background:var(--gris-suave);color:#5F5E5A}
+
+.ab-row{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.ab-row:last-child{margin-bottom:0}
+.ab-label{font-weight:600;font-size:11.5px;color:#767680;width:112px;flex-shrink:0}
+.ab-track{flex:1;background:var(--hueso);border-radius:4px;height:18px;overflow:hidden;display:flex}
+.ab-fill{height:100%}
+.ab-fill.a{background:var(--rojo)}
+.ab-fill.b{background:var(--negro)}
+.ab-fill.c{background:#BFC2CC}
+.ab-pct{font-weight:600;font-size:11.5px;color:#767680;width:88px;text-align:right;flex-shrink:0}
+
+/* TABS */
+.tabs-card{background:#fff;border-radius:16px;border:.5px solid var(--gris-linea);padding:0;margin-bottom:1.25rem;overflow:hidden}
+.tab-nav{display:flex;background:var(--negro);flex-wrap:wrap}
+.tab-btn{flex:1;min-width:110px;background:transparent;border:none;cursor:pointer;padding:16px 8px;font-family:'Montserrat',sans-serif;font-weight:700;font-size:11.5px;letter-spacing:.03em;text-transform:uppercase;color:#8A8A90;transition:.15s;border-bottom:3px solid transparent}
+.tab-btn:hover{color:#D6D6DA}
+.tab-btn.active{color:#fff;border-bottom-color:var(--rojo-brillante);background:#232323}
+.tab-panel{display:none;padding:2rem 2.5rem}
+.tab-panel.active{display:block}
+.tab-title{font-weight:800;font-size:19px;color:var(--negro);margin-bottom:2px}
+.tab-subtitle{font-weight:600;font-size:12px;color:#767680;margin-bottom:18px}
+
+.example-box{background:var(--negro);border-radius:12px;padding:1.5rem 1.75rem;margin:14px 0}
+.example-box .et{font-weight:700;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--rojo-brillante);margin-bottom:12px}
+.example-box .erow{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:10px}
+.example-box .ecol h4{font-weight:700;font-size:12.5px;color:#fff;margin-bottom:6px}
+.example-box .ecol p{font-weight:300;font-size:12.5px;color:#C9C9CE;line-height:1.6;margin:0}
+.example-box .ecol .res{font-weight:800;font-size:16px;color:#fff;margin-top:8px}
+.example-box .concl{font-weight:600;font-size:12.5px;color:var(--rojo-brillante);border-top:.5px solid #333;padding-top:12px;margin-top:4px}
+
+.footer{background:var(--negro);border-radius:16px;padding:2.2rem 2.5rem;text-align:center;margin-top:1.5rem}
+.footer .wm{font-weight:800;font-size:15px;color:var(--hueso);letter-spacing:.02em}
+.footer .fine{font-weight:300;font-size:11px;color:#8A8A90;margin-top:8px}
+
+@media(max-width:640px){
+  table.t{min-width:480px}
+  .g4{grid-template-columns:repeat(2,1fr)}
+  .g3{grid-template-columns:repeat(2,1fr)}
+  .g2{grid-template-columns:1fr}
+  .tab-btn{font-size:9.5px;padding:12px 4px}
+  .tab-panel{padding:1.5rem 1.25rem}
+  .card{padding:1.5rem 1.5rem}
+  .ab-label{width:80px;font-size:10.5px}
+  .ab-pct{width:70px}
+  table.t{font-size:11px}
+  .example-box .erow{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<!-- COVER -->
+<div class="cover">
+<div class="cover-inner">
+  <div class="cover-top">
+    <img class="cover-logo" alt="Shake Again" src="data:image/jpeg;base64,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">
+    <div class="cover-meta">Reporte de performance - Meta Ads + Google Ads<br><b>Mes cerrado</b></div>
+  </div>
+  <div class="kicker">Volkswagen Dietrich</div>
+  <h1>Resumen ejecutivo <em>- Julio 2026</em></h1>
+  <p class="subtitle">Mes cerrado (31 días) · Consideración, 0KM y Postventa · Meta Ads + Google Ads</p>
+</div>
+</div>
+
+  <!-- RESUMEN EJECUTIVO -->
+  <div class="card">
+    <div class="st"><span class="n">1</span>Resumen ejecutivo</div>
+    <div class="g g3" style="margin-bottom:18px">
+      <div class="mc">
+        <div class="ml">Inversión total</div>
+        <div class="mv">$3.175.454</div>
+        <div class="ms">Meta 65,8% · Google 34,2%</div>
+      </div>
+      <div class="mc">
+        <div class="ml">Resultados totales (leads)</div>
+        <div class="mv">795</div>
+        <div class="ms up">▲ +14,2% vs. junio</div>
+      </div>
+      <div class="mc">
+        <div class="ml">Costo promedio por resultado</div>
+        <div class="mv">$3.914</div>
+        <div class="ms up">▼ -12,3% vs. junio</div>
+      </div>
+    </div>
+    <div class="nb headline">
+      <span class="headline-tag">Lectura del mes</span>
+      Julio mejoró en las dos métricas que más importan a nivel cuenta: el volumen de leads subió 14,2% y el costo promedio por lead bajó 12,3% respecto a junio. Pero el promedio esconde una historia mixta entre verticales: 0KM tuvo su mejor mes (+45% de leads, -37% de costo), mientras que Postventa retrocedió fuerte (-44% de leads, el costo casi se duplicó), afectada por dos causas puntuales que identificamos y detallamos en su pestaña. El detalle está en las secciones siguientes, y en la sección 5 incorporamos una mirada nueva sobre costo por lead vs. costo por venta.
+    </div>
+  </div>
+
+  <!-- RESULTADOS GENERALES CONSOLIDADOS -->
+  <div class="card">
+    <div class="st"><span class="n">2</span>Resultados generales del mes</div>
+    <div class="eyebrow">Julio 2026 · Meta Ads + Google Ads</div>
+    <div class="g g3">
+      <div class="mc">
+        <div class="ml">Consideración · Clics</div>
+        <div class="mv">3.808</div>
+        <div class="ms">$64.074 invertidos</div>
+      </div>
+      <div class="mc">
+        <div class="ml">0KM · Leads</div>
+        <div class="mv">659</div>
+        <div class="ms">406 WhatsApp + 243 formularios + 10 Google</div>
+      </div>
+      <div class="mc">
+        <div class="ml">Postventa · Leads</div>
+        <div class="mv">136</div>
+        <div class="ms">90 WhatsApp + 3 formularios + 43 Google</div>
+      </div>
+    </div>
+    <hr class="div">
+    <div class="sub-st">Inversión por vertical (Meta + Google)</div>
+    <div class="ab-row"><div class="ab-label">0KM</div><div class="ab-track"><div class="ab-fill a" style="width:49.1%"></div></div><div class="ab-pct">$1.559.621</div></div>
+    <div class="ab-row"><div class="ab-label">Postventa</div><div class="ab-track"><div class="ab-fill b" style="width:48.9%"></div></div><div class="ab-pct">$1.551.760</div></div>
+    <div class="ab-row"><div class="ab-label">Consideración</div><div class="ab-track"><div class="ab-fill c" style="width:2.0%"></div></div><div class="ab-pct">$64.074</div></div>
+    <div class="ms" style="margin-top:6px">0KM y Postventa están prácticamente empatadas en inversión (49,1% y 48,9% del total respectivamente); Consideración concentra el 2,0% restante. Nota importante: los leads de Google en este reporte cuentan únicamente formularios completos ("Formulario Completo") — las aperturas de chat de WhatsApp que Google registra como una acción de conversión aparte quedan excluidas del conteo de leads, para no duplicar ni sobreestimar el volumen real.</div>
+  </div>
+
+  <!-- EVOLUCION -->
+  <div class="card">
+    <div class="st"><span class="n">3</span>Evolución vs. junio 2026</div>
+    <div class="eyebrow">Inversión y resultados por vertical, mes a mes</div>
+    <div class="tw"><table class="t">
+      <tr><th>Vertical</th><th class="num">Inversión Jun</th><th class="num">Inversión Jul</th><th class="num">Var. inversión</th><th class="num">Leads Jun</th><th class="num">Leads Jul</th><th class="num">Var. leads</th></tr>
+      <tr><td>Consideración</td><td class="num">$50.795</td><td class="num">$64.074</td><td class="num up">+26,1%</td><td class="num">—</td><td class="num">—</td><td class="num">—</td></tr>
+      <tr><td>0KM (Meta + Google)</td><td class="num">$1.716.030</td><td class="num">$1.559.621</td><td class="num dn">-9,1%</td><td class="num">454</td><td class="num">659</td><td class="num up">+45,2%</td></tr>
+      <tr><td>Postventa (Meta)</td><td class="num">$677.907</td><td class="num">$633.373</td><td class="num dn">-6,6%</td><td class="num">210</td><td class="num">93</td><td class="num dn">-55,7%</td></tr>
+      <tr><td>Postventa (Google)</td><td class="num">$712.122</td><td class="num">$918.387</td><td class="num up">+29,0%</td><td class="num">32</td><td class="num">43</td><td class="num up">+34,4%</td></tr>
+    </table></div>
+    <div class="ms" style="margin-top:10px">0KM mejoró en las dos dimensiones a la vez: menos inversión y más leads. Postventa tuvo el mes inverso — más inversión (sobre todo en Google) y menos leads en Meta — por dos causas puntuales que se detallan en su pestaña. Los leads de ambas cuentas de Google están recalculados con el mismo criterio en junio y julio (solo "Formulario Completo"), así que la comparación es directa.</div>
+  </div>
+
+  <!-- TABS POR VERTICAL -->
+  <div class="tabs-card">
+    <div class="tab-nav">
+      <button class="tab-btn active" onclick="showTab(0)">Consideración</button>
+      <button class="tab-btn" onclick="showTab(1)">0KM</button>
+      <button class="tab-btn" onclick="showTab(2)">Postventa</button>
+    </div>
+
+    <!-- CONSIDERACIÓN -->
+    <div class="tab-panel active" id="panel-0">
+      <div class="tab-title">Consideración</div>
+      <div class="tab-subtitle">Awareness y consideración de marca · Meta Ads</div>
+      <div class="g g4" style="margin-bottom:18px">
+        <div class="mc"><div class="ml">Inversión</div><div class="mv">$64.074</div><div class="ms warn">▲ +26,1% vs. junio</div></div>
+        <div class="mc"><div class="ml">Clics</div><div class="mv">3.808</div><div class="ms">Campaña de clics/awareness</div></div>
+        <div class="mc"><div class="ml">Impresiones</div><div class="mv">81.330</div><div class="ms">CTR 4,68%</div></div>
+        <div class="mc"><div class="ml">Costo por clic</div><div class="mv">$16,83</div><div class="ms">—</div></div>
+      </div>
+      <div class="nb"><strong>Objetivo de marca, no de conversión.</strong> Esta vertical opera con una única campaña de Advantage+ orientada a clics; no genera leads porque no es su objetivo. El aumento de presupuesto (+26% vs. junio) sostuvo el mismo nivel de eficiencia (CPC estable).</div>
+
+      <div class="sub-st">Creatividad</div>
+      <div class="tw"><table class="t">
+        <tr><th>Pieza</th><th class="num">Inversión</th><th class="num">Clics</th><th class="num">CPC</th></tr>
+        <tr><td>Reel de marca (en pauta desde febrero)</td><td class="num">$61.423</td><td class="num">3.644</td><td class="num">$16,86</td></tr>
+      </table></div>
+      <div class="ms" style="margin-top:8px">La pieza concentra el 96% de la inversión de esta línea y ya lleva 5 meses en pauta sin señales de fatiga (CPC estable) — igual conviene tener una segunda variante lista para rotar en agosto.</div>
+
+      <div class="sub-st">Distribución de inversión por audiencia</div>
+      <div class="g g2">
+        <div>
+          <div class="ms" style="margin-bottom:10px;font-weight:600">Por género</div>
+          <div class="ab-row"><div class="ab-label">Masculino</div><div class="ab-track"><div class="ab-fill b" style="width:80.9%"></div></div><div class="ab-pct">80,9%</div></div>
+          <div class="ab-row"><div class="ab-label">Femenino</div><div class="ab-track"><div class="ab-fill a" style="width:18.8%"></div></div><div class="ab-pct">18,8%</div></div>
+        </div>
+        <div>
+          <div class="ms" style="margin-bottom:10px;font-weight:600">Por edad</div>
+          <div class="ab-row"><div class="ab-label">65+</div><div class="ab-track"><div class="ab-fill a" style="width:42.0%"></div></div><div class="ab-pct">42,0%</div></div>
+          <div class="ab-row"><div class="ab-label">55-64</div><div class="ab-track"><div class="ab-fill a" style="width:26.8%"></div></div><div class="ab-pct">26,8%</div></div>
+          <div class="ab-row"><div class="ab-label">45-54</div><div class="ab-track"><div class="ab-fill a" style="width:15.5%"></div></div><div class="ab-pct">15,5%</div></div>
+        </div>
+      </div>
+      <div class="nb" style="margin-top:14px"><strong>Oportunidad de optimización:</strong> como es una campaña de optimización automática (Advantage+), Meta está sirviendo mayormente a hombres mayores de 55 años (69% de la inversión). Vale la pena revisar con el cliente si ese segmento coincide con el comprador que se busca captar en esta etapa de consideración.</div>
+    </div>
+
+    <!-- 0KM -->
+    <div class="tab-panel" id="panel-1">
+      <div class="tab-title">0KM</div>
+      <div class="tab-subtitle">Generación de leads para venta de unidades nuevas · Meta Ads + Google Ads</div>
+      <div class="g g4" style="margin-bottom:18px">
+        <div class="mc"><div class="ml">Inversión total</div><div class="mv">$1.559.621</div><div class="ms up">▼ -9,1% vs. junio</div></div>
+        <div class="mc"><div class="ml">Leads totales</div><div class="mv">659</div><div class="ms up">▲ +45,2% vs. junio</div></div>
+        <div class="mc"><div class="ml">Costo por lead</div><div class="mv">$2.367</div><div class="ms up">▼ -37,4% vs. junio</div></div>
+        <div class="mc"><div class="ml">Mix</div><div class="mv">406 / 243 / 10</div><div class="ms">WhatsApp / Formulario / Google</div></div>
+      </div>
+
+      <div class="sub-st">Performance por canal</div>
+      <div class="tw"><table class="t">
+        <tr><th>Canal</th><th>Plataforma</th><th class="num">Inversión</th><th class="num">Resultado</th><th class="num">Costo/lead</th></tr>
+        <tr><td>Mensajería por WhatsApp</td><td><span class="badge b-blue">Meta</span></td><td class="num">$818.469</td><td class="num">396 conversaciones</td><td class="num">$2.067</td></tr>
+        <tr><td>Formulario nativo</td><td><span class="badge b-blue">Meta</span></td><td class="num">$573.060</td><td class="num">243 registros</td><td class="num">$2.358</td></tr>
+        <tr><td>Search de marca</td><td><span class="badge b-amber">Google</span></td><td class="num">$168.092</td><td class="num">10 formularios</td><td class="num">$16.809</td></tr>
+      </table></div>
+      <div class="ms" style="margin-top:8px">El costo por lead de Google Search ($16.809) es casi 8 veces el de Meta porque su volumen de leads reales es bajo (10 en el mes) frente a una inversión considerable — es la campaña más cara del mix, aunque también capta intención de búsqueda directa que Meta no cubre.</div>
+
+      <div class="sub-st">Creatividades: qué funcionó mejor</div>
+      <div class="bul"><div class="dot"></div><div><strong>En WhatsApp</strong>, el estático "Tera – último momento" fue el más eficiente en volumen: 151 conversaciones por $158.225 ($1.048 c/u) — el mejor resultado individual de toda la cuenta este mes.</div></div>
+      <div class="bul"><div class="dot"></div><div><strong>En formulario nativo</strong>, la pieza "Financiación Polo" concentró la mayoría del volumen (162 de 243 leads, entre sus dos variantes) a $1.956 por lead.</div></div>
+      <div class="bul"><div class="dot"></div><div><strong>Oportunidad de optimización:</strong> los mensajes con foco en un modelo puntual y urgencia ("último momento", "cada vez más cerca") superan claramente a las piezas genéricas de financiación — es el formato a priorizar y replicar en otros modelos en agosto.</div></div>
+
+      <div class="sub-st">Términos de búsqueda con leads reales (Google)</div>
+      <div class="tw"><table class="t">
+        <tr><th>Término</th><th class="num">Inversión</th><th class="num">Leads</th><th class="num">Costo/lead</th></tr>
+        <tr><td>dietrich</td><td class="num">$36.972</td><td class="num">5</td><td class="num">$7.394</td></tr>
+        <tr><td>dietrich volkswagen</td><td class="num">$13.774</td><td class="num">2</td><td class="num">$6.887</td></tr>
+      </table></div>
+      <div class="ms" style="margin-top:8px">De los $168.092 invertidos en Search, solo estos dos términos generaron formularios completos identificables (7 de los 10 leads del mes); el resto del volumen de búsqueda generó clics de calidad pero sin formulario. Términos como "dietrich vw" y "volkswagen dietrich" tuvieron clics e inversión relevante pero ningún formulario completo en julio.</div>
+
+      <div class="sub-st">Audiencia que convierte (Meta)</div>
+      <div class="g g2">
+        <div>
+          <div class="ms" style="margin-bottom:10px;font-weight:600">Por género</div>
+          <div class="ab-row"><div class="ab-label">Masculino</div><div class="ab-track"><div class="ab-fill b" style="width:76.0%"></div></div><div class="ab-pct">76,0%</div></div>
+          <div class="ab-row"><div class="ab-label">Femenino</div><div class="ab-track"><div class="ab-fill a" style="width:23.3%"></div></div><div class="ab-pct">23,3%</div></div>
+        </div>
+        <div>
+          <div class="ms" style="margin-bottom:10px;font-weight:600">Por edad</div>
+          <div class="ab-row"><div class="ab-label">25-34</div><div class="ab-track"><div class="ab-fill a" style="width:27.4%"></div></div><div class="ab-pct">27,4%</div></div>
+          <div class="ab-row"><div class="ab-label">35-44</div><div class="ab-track"><div class="ab-fill a" style="width:27.0%"></div></div><div class="ab-pct">27,0%</div></div>
+          <div class="ab-row"><div class="ab-label">45-54</div><div class="ab-track"><div class="ab-fill a" style="width:21.0%"></div></div><div class="ab-pct">21,0%</div></div>
+        </div>
+      </div>
+      <div class="nb" style="margin-top:14px">Base: 649 leads de WhatsApp + formulario nativo en Meta (no incluye los 10 de Google, sin desglose de edad/género disponible en Master Metrics para esa cuenta). El perfil que más convierte son hombres (76%) de 25 a 44 años (54% del total).</div>
+    </div>
+
+    <!-- POSTVENTA -->
+    <div class="tab-panel" id="panel-2">
+      <div class="tab-title">Postventa</div>
+      <div class="tab-subtitle">Turnos y consultas de servicio · Meta Ads + Google Ads</div>
+      <div class="g g4" style="margin-bottom:18px">
+        <div class="mc"><div class="ml">Inversión total</div><div class="mv">$1.551.760</div><div class="ms dn">▲ +11,6% vs. junio</div></div>
+        <div class="mc"><div class="ml">Leads totales</div><div class="mv">136</div><div class="ms dn">▼ -43,8% vs. junio</div></div>
+        <div class="mc"><div class="ml">Costo por lead</div><div class="mv">$11.410</div><div class="ms dn">▲ +98,6% vs. junio</div></div>
+        <div class="mc"><div class="ml">Mix</div><div class="mv">90 / 3 / 43</div><div class="ms">WhatsApp / Formulario / Google</div></div>
+      </div>
+
+      <div class="wb headline"><span class="headline-tag">Dos causas identificables explican el mes</span>Postventa retrocedió por dos motivos concretos, no por una caída generalizada de eficiencia. La causa principal está en Meta: varias piezas que generaban leads en junio (WhatsApp y formulario nativo) no estuvieron activas en julio y no fueron reemplazadas con el mismo volumen, lo que explica la mayor parte de la caída de 210 a 93 leads. En Google, la campaña de Repuestos ganó peso presupuestario sin acompañar en conversión, lo que diluye la eficiencia general aunque Service mejoró levemente. Ambos puntos son accionables para agosto — ver detalle abajo y en próximos pasos.</div>
+
+      <div class="sub-st">Meta Ads · Performance por canal</div>
+      <div class="tw"><table class="t">
+        <tr><th>Canal</th><th class="num">Inversión</th><th class="num">Resultado</th><th class="num">Costo/resultado</th></tr>
+        <tr><td>Mensajería / WhatsApp</td><td class="num">$325.685</td><td class="num">90 conversaciones</td><td class="num">$3.619</td></tr>
+        <tr><td>Formulario nativo</td><td class="num">incluido arriba</td><td class="num">3 registros</td><td class="num">—</td></tr>
+        <tr><td>Contenido de alcance (video)</td><td class="num">$197.551</td><td class="num">Sin conversión directa</td><td class="num">—</td></tr>
+        <tr><td>Activación "lavado post-compra"</td><td class="num">$110.137</td><td class="num">Sin conversión directa</td><td class="num">—</td></tr>
+      </table></div>
+      <div class="pb"><span class="headline-tag" style="color:#3D7A4E">Causa 1 — piezas que dejaron de estar activas</span>En junio, tres elementos generaban resultados de forma consistente en Postventa: una pieza de formulario nativo (42 leads), y dos variantes de campaña de WhatsApp que en conjunto sumaban 74 conversaciones. Ninguna de las tres estuvo activa en julio, y solo se reemplazaron parcialmente por una pieza nueva de WhatsApp (Carrocería, 15 conversaciones) y el crecimiento de otra ya existente (+9). Neto: el formulario nativo cayó de 46 a 3 leads, y el WhatsApp de 164 a 90 conversaciones. Recomendamos reactivar el formulario nativo en agosto y revisar por qué esas piezas de WhatsApp se pausaron.</div>
+      <div class="nb">Sobre la activación "lavado post-compra": es la campaña que invita a quienes ya compraron un auto a lavarlo ese fin de semana — un objetivo de fidelización, no de generación de leads. Que no tenga conversiones medidas es esperable dado su fin; no es un problema de performance.</div>
+
+      <div class="sub-st">Google Ads · Performance por campaña</div>
+      <div class="tw"><table class="t">
+        <tr><th>Campaña</th><th class="num">Inversión</th><th class="num">Formularios</th><th class="num">Costo/formulario</th></tr>
+        <tr><td>Search — Service / marca</td><td class="num">$766.555</td><td class="num">41</td><td class="num">$18.696</td></tr>
+        <tr><td>Search — Repuestos</td><td class="num">$151.833</td><td class="num">2</td><td class="num">$75.916</td></tr>
+      </table></div>
+      <div class="ms" style="margin-top:8px">Los resultados de Google cuentan únicamente formularios completos; las aperturas de chat de WhatsApp se registran como una acción aparte en la cuenta y no se suman a este total.</div>
+      <div class="pb"><span class="headline-tag" style="color:#3D7A4E">Causa 2 — costo por formulario en Google</span>Al aislar el formulario completo, el costo por lead de Search Service fue de $18.696 en julio — de hecho, una mejora del 10% frente a los $20.766 que hubiera dado junio con este mismo criterio. El problema no es la eficiencia de esa campaña en particular, sino el peso creciente de Repuestos: generó apenas 2 formularios sobre $151.833 invertidos ($75.916 por formulario). Repuestos, en su segundo mes activo, todavía no valida su presupuesto actual — la monitoreamos un mes más antes de recomendar un recorte, dado que el volumen es muy bajo para sacar conclusiones firmes.</div>
+
+      <div class="sub-st">Términos de búsqueda con leads reales (Google)</div>
+      <div class="tw"><table class="t">
+        <tr><th>Término</th><th class="num">Inversión</th><th class="num">Leads</th><th class="num">Costo/lead</th></tr>
+        <tr><td>service volkswagen</td><td class="num">$26.746</td><td class="num">3</td><td class="num">$8.916</td></tr>
+        <tr><td>volkswagen</td><td class="num">$21.632</td><td class="num">1</td><td class="num">$21.632</td></tr>
+        <tr><td>dietrich</td><td class="num">$16.184</td><td class="num">2</td><td class="num">$8.092</td></tr>
+        <tr><td>service oficial volkswagen</td><td class="num">$9.278</td><td class="num">2</td><td class="num">$4.639</td></tr>
+        <tr><td>turno para service volkswagen</td><td class="num">$2.239</td><td class="num">2</td><td class="num">$1.119</td></tr>
+      </table></div>
+      <div class="pb"><strong>Oportunidad de optimización:</strong> el término "turno para service volkswagen" genera leads a $1.119 cada uno — 19 veces más barato que el término genérico "volkswagen" ($21.632 por lead, con un solo formulario en todo el mes pese a ser de los de mayor inversión). Los términos con intención explícita de turno o service oficial son sistemáticamente más baratos que los de marca pura. Vamos a testear ajustes de puja para priorizar términos de intención específica sobre marca genérica en agosto.</div>
+
+      <div class="sub-st">Audiencia que convierte (Meta)</div>
+      <div class="g g2">
+        <div>
+          <div class="ms" style="margin-bottom:10px;font-weight:600">Por género</div>
+          <div class="ab-row"><div class="ab-label">Masculino</div><div class="ab-track"><div class="ab-fill b" style="width:83.9%"></div></div><div class="ab-pct">83,9%</div></div>
+          <div class="ab-row"><div class="ab-label">Femenino</div><div class="ab-track"><div class="ab-fill a" style="width:14.0%"></div></div><div class="ab-pct">14,0%</div></div>
+        </div>
+        <div>
+          <div class="ms" style="margin-bottom:10px;font-weight:600">Por edad</div>
+          <div class="ab-row"><div class="ab-label">65+</div><div class="ab-track"><div class="ab-fill a" style="width:24.7%"></div></div><div class="ab-pct">24,7%</div></div>
+          <div class="ab-row"><div class="ab-label">45-54</div><div class="ab-track"><div class="ab-fill a" style="width:23.7%"></div></div><div class="ab-pct">23,7%</div></div>
+          <div class="ab-row"><div class="ab-label">35-44</div><div class="ab-track"><div class="ab-fill a" style="width:18.3%"></div></div><div class="ab-pct">18,3%</div></div>
+        </div>
+      </div>
+      <div class="nb" style="margin-top:14px">Base: 93 leads de WhatsApp + formulario nativo en Meta (no incluye los 43 de Google, sin desglose de edad/género disponible en Master Metrics para esa cuenta).</div>
+    </div>
+  </div>
+
+  <!-- COSTO POR LEAD VS COSTO POR VENTA -->
+  <div class="card">
+    <div class="st"><span class="n">5</span>Costo por lead vs. costo por venta</div>
+    <div class="nb headline">
+      <span class="headline-tag">La pregunta que todavía no podemos responder desde la pauta</span>
+      Todas las métricas de este reporte miden el costo de generar contacto —conversaciones de WhatsApp, formularios—, no el costo de generar una venta o un turno efectivo. Un volumen alto de leads baratos que no sabemos si convierten no es necesariamente mejor negocio que un volumen menor de leads más caros pero con conversión confirmada. Estas dos cosas pueden contarse muy distinto, y hoy solo medimos la primera.
+    </div>
+
+    <div class="example-box">
+      <div class="et">Ejemplo ilustrativo</div>
+      <div class="erow">
+        <div class="ecol">
+          <h4>Canal A</h4>
+          <p>100 leads a $2.000 c/u<br>$200.000 invertidos<br>5% de conversión a venta = 5 ventas</p>
+          <div class="res">$40.000 por venta</div>
+        </div>
+        <div class="ecol">
+          <h4>Canal B</h4>
+          <p>40 leads a $5.000 c/u<br>$200.000 invertidos (misma inversión)<br>20% de conversión a venta = 8 ventas</p>
+          <div class="res">$25.000 por venta</div>
+        </div>
+      </div>
+      <div class="concl">Con la misma inversión, el Canal B —con costo por lead más alto— termina siendo 38% más eficiente en costo por venta. Mirando solo el costo por lead, la lectura habría sido la opuesta.</div>
+    </div>
+
+    <div class="wb"><strong>El canal que más urge validar en calidad:</strong> la mensajería por WhatsApp de 0KM concentra simultáneamente el mayor presupuesto de toda la cuenta ($818.469), el mayor volumen de resultados (396 conversaciones) y un costo competitivo ($2.067 por conversación). Esa combinación es exactamente la que más se beneficia de conocer su tasa de conversión real a venta antes de seguir escalando inversión ahí.</div>
+    <div class="wb"><strong>El caso más urgente en sentido inverso:</strong> Search Service de Postventa (Google) cuesta $18.696 por formulario — la campaña más cara de toda la cuenta por lead. Sin saber si esos formularios se convierten en turnos reales, no podemos afirmar si ese costo es aceptable o si el presupuesto rendiría más en otro canal. Es el primer caso que proponemos validar con el equipo comercial.</div>
+
+    <div class="pb">
+      <strong>Propuesta de trabajo conjunto:</strong> proponemos habilitar con el equipo comercial y de postventa un reporte periódico simple (mensual o quincenal) que indique cuántos leads y conversaciones de cada canal avanzaron a turno o venta confirmada. Esto es una propuesta a futuro — ninguna decisión de optimización de este reporte se toma todavía sobre esa base; hoy medimos y optimizamos por volumen y costo de contacto, que es la información disponible en las plataformas de pauta.
+    </div>
+  </div>
+
+  <!-- PRÓXIMOS PASOS -->
+  <div class="card">
+    <div class="st"><span class="n">6</span>Próximos pasos</div>
+    <div class="bul"><div class="dot"></div><div>Acordar con el equipo comercial y de postventa el formato y la frecuencia del reporte de conversión lead → venta/turno (sección 5).</div></div>
+    <div class="bul"><div class="dot"></div><div>Reactivar en agosto el formulario nativo de Postventa (Meta) y revisar por qué se pausaron dos piezas de WhatsApp que en junio generaban 74 conversaciones combinadas, sin reemplazo equivalente en julio.</div></div>
+    <div class="bul"><div class="dot"></div><div>Revisar puja y segmentación de palabras clave en Google Postventa: redirigir presupuesto de términos de marca pura ("volkswagen") hacia términos de intención de turno ("turno para service volkswagen"), 19 veces más eficientes.</div></div>
+    <div class="bul"><div class="dot"></div><div>Testear en agosto escalar el formato "último momento" de WhatsApp (0KM) hacia otros modelos, replicando el enfoque de la pieza ganadora del mes.</div></div>
+    <div class="bul"><div class="dot"></div><div>Monitorear un mes más la campaña de Repuestos (Google Postventa) antes de recomendar ajuste de presupuesto — volumen todavía bajo para sacar conclusiones firmes.</div></div>
+    <div class="bul"><div class="dot"></div><div>Agenda para el cierre de agosto.</div></div>
+  </div>
+
+  <div class="footer">
+    <div class="wm">SHAKE AGAIN</div>
+    <div class="fine">Reporte elaborado con datos de Master Metrics · Volkswagen — Grupo Dietrich · Julio 2026</div>
+  </div>
+
+</div>
+
+<script>
+function showTab(i){
+  document.querySelectorAll('.tab-btn').forEach((b,idx)=>b.classList.toggle('active', idx===i));
+  document.querySelectorAll('.tab-panel').forEach((p,idx)=>p.classList.toggle('active', idx===i));
+}
+</script>
+</body>
+</html>
